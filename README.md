@@ -15,7 +15,7 @@ Welcome to the official GitHub repository for our **Reverse Engineering**! This 
 
 ```
 ## ⚙️ Setup
-# Prerequisites
+### Prerequisites
 Before starting with the labs or tools, please ensure the following are installed:
 - **Linux** (Kali preferred) or any Unix-based OS
 - **Python 3.x**
