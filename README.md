@@ -12,6 +12,22 @@ Welcome to the official GitHub repository for our **Reverse Engineering**! This 
 ├── solutions/             # Suggested solutions for lab tasks
 ├── references/            # Useful links and further reading
 └── README.md              # This file
-'''
 
-## Installation
+```
+## ⚙️ Setup
+# Prerequisites
+Before starting with the labs or tools, please ensure the following are installed:
+- **Linux** (Kali preferred) or any Unix-based OS
+- **Python 3.x**
+- **Git**
+- **VirtualBox** or **VMware**
+
+### Clone the repository
+```bash
+mkdir ~/workshop          #create a directory to store all workshop related files
+cd ~/workshop
+git clone https://github.com/your-username/Aegis_workshop.git
+cd Aegis-workshop
+```
+
+
