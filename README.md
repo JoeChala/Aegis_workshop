@@ -34,12 +34,17 @@ To install JDK:
 sudo apt install openjdk-21-jdk
 java --version    #to verify installation
 ```
-Download the Ghidra application
+To install the Ghidra application
 ```bash
-cd ~/workshop/Aegis-workshop
+cd ~/Aegis_workshop
 mkdir tools
 cd tools
+```
+Downloading from github
+```bash
 wget https://github.com/NationalSecurityAgency/ghidra/releases/download/Ghidra_11.3.2_build/ghidra_11.3.2_PUBLIC_20250415.zip
+```
+```bash
 unzip ghidra_11.3.2_PUBLIC_20250415.zip
 mv ghidra_11.3.2_PUBLIC_20250415.zip ghidra    #rename folder name
 ```
