@@ -7,7 +7,7 @@ Welcome to the official GitHub repository for our **Reverse Engineering**! This 
 ```bash
 .
 ├── slides/                # Presentation slides used during the session
-├── ghidra_assets/         # Ghidra tool download with JDK
+├── ghidra/         # Ghidra tool download with JDK
 ├── labs/                  # Hands-on lab exercises and instructions
 ├── solutions/             # Suggested solutions for lab tasks
 ├── references/            # Useful links and further reading
@@ -29,5 +29,20 @@ cd ~/workshop
 git clone https://github.com/your-username/Aegis_workshop.git
 cd Aegis-workshop
 ```
+### Installing tools and JDK
+```bash
+cd ghidra
+```
+extract ghidra application
+```bash
+unzip ghidra.zip
+```
+Extract the JDK:
+```bash
+tar xvf <JDK distribution .tar.gz>
+```
+Open ~/.bashrc with an editor of your ch
+At the very end of the file, add the JDK bin directory to the PATH variable:
+export PATH=<path of extracted JDK dir>/bin:$PATH
 
 
