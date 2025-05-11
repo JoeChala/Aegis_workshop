@@ -6,8 +6,6 @@ Welcome to the official GitHub repository for our **Reverse Engineering**! This 
 
 ```bash
 .
-├── slides/                # Presentation slides used during the session
-├── ghidra/         # Ghidra tool download with JDK
 ├── labs/                  # Hands-on lab exercises and instructions
 ├── solutions/             # Suggested solutions for lab tasks
 ├── references/            # Useful links and further reading
@@ -47,6 +45,14 @@ wget https://github.com/NationalSecurityAgency/ghidra/releases/download/Ghidra_1
 ```bash
 unzip ghidra_11.3.2_PUBLIC_20250415.zip
 mv ghidra_11.3.2_PUBLIC_20250415.zip ghidra    #rename folder name
+```
+### Running Ghidra
+```bash
+chmod +x ghidraRun
+```
+Then run
+```bash
+./ghidraRun
 ```
 
 
