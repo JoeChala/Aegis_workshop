@@ -23,26 +23,25 @@ Before starting with the labs or tools, please ensure the following are installe
 - **VirtualBox** or **VMware**
 
 ### Clone the repository
-```bash
-mkdir ~/workshop          #create a directory to store all workshop related files
-cd ~/workshop
+```bash        
+cd ~
 git clone https://github.com/your-username/Aegis_workshop.git
-cd Aegis-workshop
+cd Aegis_workshop
 ```
 ### Installing tools and JDK
+To install JDK: 
 ```bash
-cd ghidra
+sudo apt install openjdk-21-jdk
+java --version    #to verify installation
 ```
-extract ghidra application
+Download the Ghidra application
 ```bash
-unzip ghidra.zip
+cd ~/workshop/Aegis-workshop
+mkdir tools
+cd tools
+wget https://github.com/NationalSecurityAgency/ghidra/releases/download/Ghidra_11.3.2_build/ghidra_11.3.2_PUBLIC_20250415.zip
+unzip ghidra_11.3.2_PUBLIC_20250415.zip
+mv ghidra_11.3.2_PUBLIC_20250415.zip ghidra    #rename folder name
 ```
-Extract the JDK:
-```bash
-tar xvf <JDK distribution .tar.gz>
-```
-Open ~/.bashrc with an editor of your ch
-At the very end of the file, add the JDK bin directory to the PATH variable:
-export PATH=<path of extracted JDK dir>/bin:$PATH
 
 
