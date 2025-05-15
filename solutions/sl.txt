@@ -1,0 +1,11 @@
+crackem0 - 250382
+crackme1 - 5274
+crackme2 - 338724
+crackme3 - 338724
+crackme4 - 69,96,33333,555,78,87
+crackme5 - 88,4444,22222222
+crackme6 - Command: LOLO=anything ./crackme6
+	   Password: 88,4444,22222222
+crackme7 - Command: LOLO=anything ./crackme7
+	   Password: 88,4444,22222222
+
