@@ -36,15 +36,18 @@ source ~/.bashrc
 echo -e "\033[1;32m Use ghidra in terminal to run\033[0m"
 
 cd ~/workshop
+mkdir -p ~/workshop/repo
 if [ -d "~/workshop/repo/" ]; then
     echo -e "\033[1;32m Repo already exists at ~/workshop/repo/. Skipping clone.\033[0m"
 else
-    echo -e "\033[1;36m Cloning Aegis_workshop repository...		       [7/7]\033[0m"
+    echo -e "\033[1;36m Cloning Aegis workshop repository...		       [7/7]\033[0m"
     git clone https://github.com/JoeChala/Aegis_workshop.git ~/workshop/repo/
     echo -e "\033[1;32m Repo cloned successfully.\033[0m"
 fi
 
 echo -e "\033[1;32m Successfully installed ghidra and other workshop tools\033[0m"
 echo -e "\033[1;32m Opening workshop folder\033[0m"
+chmod +x ~/workshop/repo/labs/exes/*
+chmod +x ~/workshop/repo/labs/programs/*
 cd ~/workshop
 exec "$SHELL"
