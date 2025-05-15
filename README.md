@@ -8,7 +8,7 @@ Welcome to the official GitHub repository for our **Reverse Engineering**! This 
 .
 ├── labs/                  # Hands-on lab exercises and instructions
 ├── solutions/             # Suggested solutions for lab tasks
-├── references/            # Useful links and further reading
+├── resources/             # Useful links and further reading
 └── README.md              # This file
 
 ```
