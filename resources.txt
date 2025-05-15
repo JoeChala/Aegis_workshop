@@ -1,0 +1,23 @@
+# Courses
+https://picoctf.org/resources.html
+https://www.udemy.com/topic/reverse-engineering/
+https://www.coursera.org/learn/malware-analysis-and-assembly
+
+# CTF Challenges
+https://picoctf.org/
+https://ctftime.org/
+https://overthewire.org/wargames/
+https://crackmes.one/
+https://hackthebox.com/
+https://tryhackme.com/
+
+# Reverse Engineering Tools & References
+https://ghidra-sre.org/
+https://malwareunicorn.org/workshops/re101.html
+https://www.hex-rays.com/products/ida/
+https://book.hacktricks.xyz/
+https://reverseengineering.stackexchange.com/
+
+# GitHub Repos and Awesome Lists
+https://github.com/onethawt/reverseengineering-reading-list
+https://github.com/ctfs/resources
