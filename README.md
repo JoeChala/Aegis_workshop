@@ -20,36 +20,17 @@ Before starting with the labs or tools, please ensure the following are installe
 - **Git**
 - **VirtualBox** or **VMware**
 
-### Clone the repository
-```bash        
-cd ~
-git clone https://github.com/your-username/Aegis_workshop.git
-cd Aegis_workshop
-```
+
 ### Installing tools and JDK
-To install JDK: 
+Give execution permission to setup.sh
 ```bash
-sudo apt install openjdk-21-jdk
-java --version    #to verify installation
+chmod +x setup.sh
 ```
-To install the Ghidra application
+Run the setup.sh
 ```bash
-cd ~/Aegis_workshop
-mkdir tools
-cd tools
+./setup.sh
 ```
-Downloading from github
-```bash
-wget https://github.com/NationalSecurityAgency/ghidra/releases/download/Ghidra_11.3.2_build/ghidra_11.3.2_PUBLIC_20250415.zip
-```
-```bash
-unzip ghidra_11.3.2_PUBLIC_20250415.zip
-mv ghidra_11.3.2_PUBLIC_20250415.zip ghidra    #rename folder name
-```
-### Running Ghidra
-```bash
-chmod +x ghidraRun
-```
+All the tools and other resources are downloaded
 Then run
 ```bash
 ./ghidraRun
