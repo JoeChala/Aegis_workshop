@@ -31,9 +31,8 @@ Run the setup.sh
 ./setup.sh
 ```
 All the tools and other resources are downloaded
-Then run
+
+To access the lab programs 
 ```bash
-./ghidraRun
+cd labs
 ```
-
-
