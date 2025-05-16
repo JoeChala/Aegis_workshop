@@ -22,7 +22,7 @@ wget https://github.com/NationalSecurityAgency/ghidra/releases/download/Ghidra_1
 
 echo -e "\033[1;36m Extracting Ghidra...				       [5/7]\033[0m"
 unzip ghidra_11.3.2_PUBLIC_20250415.zip
-mv ghidra_11.3.2_PUBLIC_20250415 ghidra_11.3.2
+mv ghidra_11.3.2_PUBLIC ghidra_11.3.2
 rm ghidra_11.3.2_PUBLIC_20250415.zip
 
 echo -e "\033[1;36m Setting up Ghidra launch alias...			       [6/7]\033[0m"
